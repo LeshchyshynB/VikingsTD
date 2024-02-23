@@ -16,7 +16,7 @@ class Tower():
 			self.ready = False
 		
 	def _cooldown(self):
-		self.cooldown_tracker += clock.get_time()
+		self.cooldown_tracker += self.clock.get_time()
 		if self.cooldown_tracker > 200:
 			self.cooldown_tracker = 0
 			self.ready = True
