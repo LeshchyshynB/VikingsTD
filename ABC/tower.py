@@ -24,3 +24,7 @@ class Tower():
 	def update(self, target):
 		self._attack(target)
 		self._cooldown()
+
+
+	def upgrade(self):
+		pass
