@@ -22,7 +22,6 @@ while running:
 		Handler(event)
 
 	screen.fill("white")
-
 	pygame.draw.circle(screen, "red", player_pos, 40)
 
 
